@@ -1,7 +1,7 @@
 <script>
 	
-  const bgColor = '#e585ca'
-  const gifURL = "anthurium_loop.gif";
+  const bgColor = '#9BB7D4'
+  const gifURL = "figure-1.png";
   const gifOffsetX = 0
   const gifOffsetY = 0
   
@@ -9,6 +9,7 @@
     const gif = document.createElement('img')
     gif.src = gifURL + '#' + Math.random()
     document.body.appendChild(gif)
+    gif.width = 80
     gif.style.position = 'absolute'
     gif.style.left = x + 'px'
     gif.style.top = y + 'px'
